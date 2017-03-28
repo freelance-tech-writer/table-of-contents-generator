@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!--  Meta  -->
+	<meta charset="UTF-8" />
+	<title>Table of Contents Generator — Independent Tech Writers Co.</title>
+
+	<!--  Styles  -->
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<h3>GitHub Table of Contents Generator</h3>
+		<div class="flexContainer">
+			<div class="section">
+				<label>Your Markdown</label>
+				<textarea class="textarea" id="js-textarea"># Major Los Angeles Streets
+Slauson, Sepulveda, Rodeo
+
+## Other streets
+Fairfax, La Brea, La Cienega
+
+# Major Hubs
+Sunset, Santa Monica, Olympic
+# Minor Hubs
+Pico, Venice, Melrose</textarea>
+			</div>
+			<div class="section">
+				<label>Table of Contents</label>
+				<textarea class="output" id="js-output">
+				</textarea>
+			</div>
+		</div>
+		<div class="controls">
+			<div class="radioGroup">
+				<h6>OPTIONS</h6>
+				<input name="bullet" type="radio" id="asterisk" checked="checked" />
+				<label for="asterisk">Plain list</label>
+				<br>
+				<input name="bullet" type="radio" id="num" />
+				<label for="num">Numbered list</label>
+			</div>
+			<div class="buttonContainer">
+				<button class="waves-effect waves-light btn-large" id="js-runGenerator">Generate Table of Contents</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
