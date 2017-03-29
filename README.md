@@ -2,8 +2,6 @@
 <p align="center"><i>A tiny web app that generates a table of contents from your GitHub Markdown</i></p>
 <p align="center"><a href="https://freelance-tech-writer.github.io/table-of-contents-generator/index.html">https://freelance-tech-writer.github.io/table-of-contents-generator/index.html</a></p>
 
----
-
 # About
 
 Creating tables of contents for your GitHub README files by hand is time-consuming, error prone and monotonous. Use our Table of Contents Generator to alleviate the pain.
